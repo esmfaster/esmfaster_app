@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: Build Flutter Android APK
+=======
+name: Build Flutter APK
+>>>>>>> 3bfdccaa2bedb10d9e4ae772aa42fde472d0aa41
 
 on:
   push:
@@ -24,9 +28,12 @@ jobs:
         with:
           flutter-version: '3.22.x'
 
+<<<<<<< HEAD
       - name: Run flutter doctor
         run: flutter doctor
 
+=======
+>>>>>>> 3bfdccaa2bedb10d9e4ae772aa42fde472d0aa41
       - name: Get dependencies
         run: flutter pub get
 
@@ -37,5 +44,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app-release.apk
+<<<<<<< HEAD
           path: build/app/outputs/flutter-apk/app-release.apk
 
+=======
+          path: build/app/outputs/flutter-apk/app-release.apk
+>>>>>>> 3bfdccaa2bedb10d9e4ae772aa42fde472d0aa41
