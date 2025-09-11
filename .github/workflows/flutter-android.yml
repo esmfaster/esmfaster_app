@@ -1,13 +1,10 @@
-<<<<<<< HEAD
 name: Build Flutter Android APK
-=======
-name: Build Flutter APK
->>>>>>> 3bfdccaa2bedb10d9e4ae772aa42fde472d0aa41
 
 on:
   push:
     branches: [main]
-  workflow_dispatch:
+  pull_request:
+    branches: [main]
 
 jobs:
   build:
@@ -15,38 +12,21 @@ jobs:
 
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
-
-      - name: Set up Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: '17'
+        uses: actions/checkout@v3
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.x'
+          flutter-version: '3.6.x'
 
-<<<<<<< HEAD
-      - name: Run flutter doctor
-        run: flutter doctor
-
-=======
->>>>>>> 3bfdccaa2bedb10d9e4ae772aa42fde472d0aa41
-      - name: Get dependencies
+      - name: Flutter pub get
         run: flutter pub get
 
       - name: Build APK
         run: flutter build apk --release
 
       - name: Upload APK artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
           name: app-release.apk
-<<<<<<< HEAD
           path: build/app/outputs/flutter-apk/app-release.apk
-
-=======
-          path: build/app/outputs/flutter-apk/app-release.apk
->>>>>>> 3bfdccaa2bedb10d9e4ae772aa42fde472d0aa41
