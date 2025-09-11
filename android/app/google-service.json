@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "315247268216",
+    "firebase_url": "https://esmfaster-app-default-rtdb.firebaseio.com",
+    "project_id": "esmfaster-app",
+    "storage_bucket": "esmfaster-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315247268216:android:3b177f1c8c54a3e118f88d",
+        "android_client_info": {
+          "package_name": "com.esmfaster.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315247268216-il99u96lt790ru1n1jmns4arphdkhbe7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ7bCXiiIvDuGCRtfJEXiSUmNBbcGM7mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315247268216-il99u96lt790ru1n1jmns4arphdkhbe7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315247268216:android:e8260f440aaa0aa018f88d",
+        "android_client_info": {
+          "package_name": "com.mstoreapp.ionic1663963084338"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315247268216-il99u96lt790ru1n1jmns4arphdkhbe7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ7bCXiiIvDuGCRtfJEXiSUmNBbcGM7mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315247268216-il99u96lt790ru1n1jmns4arphdkhbe7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315247268216:android:a40889983a53b8b718f88d",
+        "android_client_info": {
+          "package_name": "com.taqnix.esmfaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315247268216-il99u96lt790ru1n1jmns4arphdkhbe7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ7bCXiiIvDuGCRtfJEXiSUmNBbcGM7mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315247268216-il99u96lt790ru1n1jmns4arphdkhbe7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315247268216:android:5ec4d7fcf4d8e77318f88d",
+        "android_client_info": {
+          "package_name": "esmfaster.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315247268216-il99u96lt790ru1n1jmns4arphdkhbe7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ7bCXiiIvDuGCRtfJEXiSUmNBbcGM7mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315247268216-il99u96lt790ru1n1jmns4arphdkhbe7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
