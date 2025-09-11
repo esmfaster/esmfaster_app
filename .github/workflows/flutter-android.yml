@@ -14,18 +14,23 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v3
 
-      - name: Set up Flutter
+      - name: Set up Flutter 3.6.x
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.6.x'
 
-      - name: Flutter pub get
+      - name: Check Flutter & Dart Version
+        run: |
+          flutter --version
+          dart --version
+
+      - name: Install dependencies
         run: flutter pub get
 
       - name: Build APK
         run: flutter build apk --release
 
-      - name: Upload APK artifact
+      - name: Upload APK
         uses: actions/upload-artifact@v3
         with:
           name: app-release.apk
