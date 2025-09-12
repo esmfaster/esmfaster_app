@@ -1,0 +1,26 @@
+workflows:
+  flutter-workflow:
+    name: Flutter Build & Test Workflow
+    triggers:
+      - push
+    environment:
+      flutter: stable
+      xcode: latest
+      android: true
+      java: true
+    scripts:
+      - name: Install dependencies
+        script: flutter pub get
+      - name: Run unit tests
+        script: flutter test
+      - name: Build APK
+        script: flutter build apk --release
+      - name: Build iOS
+        script: flutter build ios --release
+    artifacts:
+      - build/app/outputs/flutter-apk/app-release.apk
+      - build/ios/ipa/*.ipa
+    publishing:
+      email:
+        recipients:
+          - your-email@example.com
